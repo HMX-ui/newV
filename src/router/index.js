@@ -5,7 +5,7 @@ import NotFound from '../view/notFound.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/home',
         name: 'Home',
         component: Home
     },
