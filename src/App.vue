@@ -13,9 +13,13 @@
 </template>
 <script setup>
     import About from '../src/view/about.vue'
-    import Home from '../src/view/home.vue'
     import NotFound from '../src/view/notFound.vue'
-import { ref } from 'vue'
+    import Home from '../src/view/home.vue'
+    import { ref } from 'vue'
+    // 简单用法
+/*    const HelloWorld = defineAsyncComponent(() => {
+        import('../src/view/home.vue')
+    })*/ 
 const x = ref('')
 const zCf = (value) => {
     x.value = value;

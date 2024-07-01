@@ -14,7 +14,7 @@
     <button @click="ziChuanFu">点击我，子传父</button>
 </template>
 <script setup>
-    import { defineProps, defineEmits } from 'vue';
+    import { defineProps, defineEmits } from 'vue'
     const emit = defineEmits(['child-click'])
     const ziChuanFu = () => {
         emit('child-click', 1)
