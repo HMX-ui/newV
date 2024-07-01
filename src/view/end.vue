@@ -6,7 +6,6 @@
 </template>
 <script>export default {
   name: 'end',
-
     created() {
     console.log('这是attrs', this.$attrs)
   }
